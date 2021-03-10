@@ -6,18 +6,24 @@ body{
     text-align: center;
 }
 .container{
+    margin-left: 100pt;
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-left: 250pt;
-    margin-right: 250pt;
     padding: 2pt;
     background-color: black;
+    float: left;
 }
 .element_con{
     background-color: white;
     border: 2px solid black;
-    padding: 50pt;
+    padding: 75pt;
 }
 .element_con:hover{
     background-color: lightgray;
+}
+button{
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 75pt;
+    border-radius: 25pt;
 }
