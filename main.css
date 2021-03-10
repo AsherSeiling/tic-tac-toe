@@ -1,0 +1,23 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 20pt;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 250pt;
+    margin-right: 250pt;
+    padding: 2pt;
+    background-color: black;
+}
+.element_con{
+    background-color: white;
+    border: 2px solid black;
+    padding: 50pt;
+}
+.element_con:hover{
+    background-color: lightgray;
+}
